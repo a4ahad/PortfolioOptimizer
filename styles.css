@@ -1,0 +1,9 @@
+[data-testid="stSidebar"] {
+    background-color: #154734; /* Sets the background color of the sidebar */
+}
+[data-testid="stSidebar"] .css-1v3fvcr {
+    color: white; /* Sets the text color in the sidebar */
+}
+[data-testid="stSidebar"] .css-1v3fvcr .css-1v3fvcr {
+    color: white; /* Ensures nested elements also have white text color */
+}
