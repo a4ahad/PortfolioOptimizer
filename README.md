@@ -90,18 +90,6 @@ pandas>=1.3
 plotly>=5.0
 scipy>=1.7
 ```
-
----
-
-## 📚 References
-
-- [Streamlit Documentation](https://docs.streamlit.io/)
-    
-- [yFinance Documentation](https://aroussi.com/post/python-yahoo-finance)
-    
-- [Modern Portfolio Theory (Investopedia)](https://www.investopedia.com/terms/m/modernportfoliotheory.asp)
-    
-
 ---
 ## 🎓 Academic Outputs
 
@@ -113,6 +101,16 @@ scipy>=1.7
   <p><em>Presented at Trent University (2024)</em></p>
 </div>
 
+---
+
+## 📚 References
+
+- [Streamlit Documentation](https://docs.streamlit.io/)
+    
+- [yFinance Documentation](https://aroussi.com/post/python-yahoo-finance)
+    
+- [Modern Portfolio Theory (Investopedia)](https://www.investopedia.com/terms/m/modernportfoliotheory.asp)
+    
 ---
 
 ## 👥 Authors
