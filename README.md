@@ -103,6 +103,17 @@ scipy>=1.7
     
 
 ---
+## 🎓 Academic Outputs
+
+### Research Poster (Sep-Dec 2024)
+<div align="center">
+  <a href="posters/Group42_Portfolio_Poster.pdf">
+    <img src="posters/poster_preview.jpg" width="600" alt="Portfolio Optimization Poster"/>
+  </a>
+  <p><em>Presented at Trent University (2024)</em></p>
+</div>
+
+---
 
 ## 👥 Authors
 
