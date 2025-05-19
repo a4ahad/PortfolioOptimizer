@@ -54,15 +54,14 @@ streamlit run main.py
 ---
 
 ## 📂 Project Structure
-
+```
 PortfolioOptimizer/
 ├── main.py                     # Streamlit application
 ├── styles.css                 # Custom styling
 ├── requirements.txt      # Dependencies
-
 ├── README.md            # Documentation
 └── trent_logo.png         # Institutional logo
-
+```
 ---
 
 ## 🧑‍💻 Development
@@ -104,4 +103,21 @@ scipy>=1.7
 
 ## 👥 Authors
 
-<table> <tr> <td align="center"> <a href="https://github.com/a4ahad"> <img src="https://via.placeholder.com/100" width="100px;" alt="Md Abdul Ahad"/> <br /> <sub><b>Md Abdul Ahad</b></sub> </a> </td> <td align="center"> <a href="#"> <img src="https://via.placeholder.com/100" width="100px;" alt="Ekpereamaka Nwachukwu"/> <br /> <sub><b>Ekpereamaka Nwachukwu</b></sub> </a> </td> </tr> </table>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/a4ahad">
+        <img src="https://github.com/a4ahad.png" width="100px;" alt="Md Abdul Ahad"/>
+        <br />
+        <sub><b>Md Abdul Ahad</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/ekpereamaka">
+        <img src="https://github.com/ekpereamaka.png" width="100px;" alt="Ekpereamaka Nwachukwu"/>
+        <br />
+        <sub><b>Ekpereamaka Nwachukwu</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
