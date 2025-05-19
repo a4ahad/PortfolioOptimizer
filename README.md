@@ -1,7 +1,10 @@
 # 📊 Portfolio Optimizer with Risk Management
 ### Strategic Business Decision-Making Tool | AMOD-5610 Project
 
-![Streamlit App Preview](trent_logo.png)  
+<div align="center">
+  <img src="trent_logo.png" width="200"/>
+  <p><em>Institutional Logo</em></p>
+</div>
 *A modern Streamlit application for stock portfolio optimization and risk analysis*
 
 ---
