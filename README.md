@@ -1,82 +1,107 @@
-# Portfolio Optimization with Risk Management to Support
-Strategic Business Decision-Making
+# 📊 Portfolio Optimizer with Risk Management
+### Strategic Business Decision-Making Tool | AMOD-5610 Project
+
+![Streamlit App Preview](trent_logo.png)  
+*A modern Streamlit application for stock portfolio optimization and risk analysis*
+
+---
+
+## 🌟 Features
+- **Multi-Asset Portfolio Optimization** - Analyze up to 10 stocks simultaneously
+- **Risk Metrics** - VaR (Value at Risk) and CVaR calculations
+- **Interactive Visualizations** - Efficient frontier, correlation heatmaps
+- **Real-time Data** - Powered by Yahoo Finance API
+- **Responsive Design** - Works on all devices
+
+## 🛠️ Tech Stack
+![Python](https://img.shields.io/badge/Python-3.7+-3776AB?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-1.3+-150458?logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-5.0+-3F4F75?logo=plotly&logoColor=white)
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.7+
+- pip package manager
+
+### Installation
+```bash
+# Clone repository
+git clone https://github.com/a4ahad/PortfolioOptimizer.git
+cd PortfolioOptimizer
+
+# Create virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+.\venv\Scripts\activate   # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+```
 
 
-This is a project work for the AMOD-5610, it is a Streamlit application for optimizing stock portfolios. After unzipping the files, please follow the steps below to set up and run the project on Windows, Mac, and Linux.
+### Running the Application
 
-## Prerequisites
+```bash
+streamlit run main.py
+```
 
-- Python 3.7 or higher
-- pip (Python package installer)
+> 🌐 Open your browser to `http://localhost:8501`
 
-## Installation
+---
 
-1. Clone the repository or download the project files.
+## 📂 Project Structure
 
-2. Open a terminal (Command Prompt on Windows, Terminal on Mac and Linux).
+PortfolioOptimizer/
+├── main.py                     # Streamlit application
+├── styles.css                 # Custom styling
+├── requirements.txt      # Dependencies
 
-3. Navigate to the project directory.
+├── README.md            # Documentation
+└── trent_logo.png         # Institutional logo
 
-4. Create a virtual environment (optional but recommended):
-   ```
-   python -m venv env
-   ```
+---
 
-5. Activate the virtual environment:
-   - On Windows:
-     ```
-     .\env\Scripts\activate
-     ```
-   - On Mac and Linux:
-     ```
-     source env/bin/activate
-     ```
+## 🧑‍💻 Development
 
-6. Install the required packages:
-   ```
-   pip install -r requirements.txt
-   ```
+### Customizing Styles
 
-   The `requirements.txt` file should include the following packages:
-   ```
-   streamlit
-   yfinance
-   pandas
-   numpy
-   plotly
-   scipy
-   ```
+Edit `styles.css` to modify the application appearance:
 
-   If you don't have a `requirements.txt` file, you can create one with the above content or install the packages individually:
-   ```
-   pip install streamlit yfinance pandas numpy plotly scipy
-   ```
 
-## Running the Application
+```css
+/* Example customization */
+[data-testid="stSidebar"] {
+    background-color: #154734;
+}
+```
+### Dependencies
 
-1. Ensure you are in the project directory.
+The `requirements.txt` includes:
+```
+streamlit>=1.0
+yfinance>=0.2
+pandas>=1.3
+plotly>=5.0
+scipy>=1.7
+```
 
-2. Run the Streamlit application:
-   ```
-   streamlit run main.py
-   ```
+---
 
-3. Open your web browser and go to the URL provided by Streamlit (usually `http://localhost:8501`).
+## 📚 References
 
-## Custom CSS
+- [Streamlit Documentation](https://docs.streamlit.io/)
+    
+- [yFinance Documentation](https://aroussi.com/post/python-yahoo-finance)
+    
+- [Modern Portfolio Theory (Investopedia)](https://www.investopedia.com/terms/m/modernportfoliotheory.asp)
+    
 
-To customize the appearance of the application, you can modify the `styles.css` file.
+---
 
-## References
+## 👥 Authors
 
-- Streamlit Documentation
-- yfinance Documentation
-- Plotly Documentation
-- Pandas Documentation
-- NumPy Documentation
-- SciPy Documentation
-
-## Authors
-
-- Md Abdul Ahad
-- Ekpereamaka Nwachukwu
+<table> <tr> <td align="center"> <a href="https://github.com/a4ahad"> <img src="https://via.placeholder.com/100" width="100px;" alt="Md Abdul Ahad"/> <br /> <sub><b>Md Abdul Ahad</b></sub> </a> </td> <td align="center"> <a href="#"> <img src="https://via.placeholder.com/100" width="100px;" alt="Ekpereamaka Nwachukwu"/> <br /> <sub><b>Ekpereamaka Nwachukwu</b></sub> </a> </td> </tr> </table>
